@@ -1,0 +1,28 @@
+.user-card {
+  background-color: white;
+  padding: 20px;
+
+  &__name {
+    font-size: 1.5rem;
+  }
+
+  &__list {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__left {
+    color: #bcbec3;
+    font-size: 1.2rem;
+  }
+
+  &__right {
+    font-size: 1.2rem;
+  }
+}
